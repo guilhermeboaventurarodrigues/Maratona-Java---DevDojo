@@ -6,7 +6,6 @@ public class Filme {
     private int year;
     private String plataform;
 
-
     public Filme(String movie, String genre, int year){
         this.movie = movie;
         this.genre = genre;
