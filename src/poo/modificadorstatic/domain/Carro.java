@@ -5,6 +5,10 @@ public class Carro {
     private double velocidadeMaxima;
     private static double velocidadeLimite = 250;
 
+    static {
+        System.out.println("Dentro do bloco de inicialização");
+    }
+
     public Carro(String nome, double velocidadeMaxima) {
         this.nome = nome;
         this.velocidadeMaxima = velocidadeMaxima;
