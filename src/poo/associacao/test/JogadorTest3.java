@@ -19,6 +19,6 @@ public class JogadorTest3 {
 
         time.setJogadores(jogadores);
 
-        time.imprime();
+        jogador2.imprime();
     }
 }

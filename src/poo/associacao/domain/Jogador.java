@@ -15,8 +15,8 @@ public class Jogador {
     public void imprime(){
         System.out.println(this.nome);
         if (time == null) return;
+        System.out.println("Time: ");
         System.out.println(time.getNome());
-        System.out.println("---------");
     }
 
     public Jogador(String nome){
