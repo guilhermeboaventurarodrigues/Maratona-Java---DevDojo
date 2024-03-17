@@ -29,8 +29,12 @@ public class SeminarioTest {
         local.setSeminario(seminarios);
 
         aluno1.imprime();
-//          seminario.imprime();
-//        professor.imprime();
-//        local.imprime();
+        System.out.println("-------------------");
+        seminario.imprime();
+        System.out.println("-------------------");
+        professor.imprime();
+        System.out.println("-------------------");
+        local.imprime();
+        System.out.println("-------------------");
     }
 }
