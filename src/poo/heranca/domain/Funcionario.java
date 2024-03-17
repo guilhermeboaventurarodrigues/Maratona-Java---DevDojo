@@ -12,6 +12,13 @@ public class Funcionario extends Pessoa{
         System.out.println(this.salario);
     }
 
+    @Override
+    public String toString() {
+        return "Funcionario{" +
+                "nome='" + nome + '\'' +
+                '}';
+    }
+
     public void relatorio(){
         System.out.println("Eu "+this.nome+" recebi o valor de "+this.salario);
     }

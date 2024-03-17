@@ -38,5 +38,9 @@ public class HerancaTest {
         func1.setSalario("3000 reais");
 
         func1.imprime();
+
+        System.out.println("----------------");
+
+        System.out.println(func1.toString());
     }
 }
